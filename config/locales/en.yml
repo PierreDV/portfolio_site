@@ -20,4 +20,21 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  views:
+    homepage:
+      index:
+        intro: "My name is Peter de
+          Verteuil and I am a Web Developer."
+    static_page:
+      about:
+        title: "About"
+      contact:
+        title: "Contact"
+      education:
+        title: "Education"
+      employment:
+        title: "Employment"
+      projects:
+        title: "Projects"
+      skills:
+        title: "Skills"
