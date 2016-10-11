@@ -1,11 +1,17 @@
 !!!
-%html
+%html{:lang => "en"}
   %head
-    %title Peter de Verteuil
+    %title=t('views.application._header.title')
     = csrf_meta_tags
 
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
 
   %body
-    = yield
+    .container
+      .row
+        .col-md-10
+          = render 'layouts/header'
+          = yield
+        .col-md-2
+          = render 'layouts/sidebar'

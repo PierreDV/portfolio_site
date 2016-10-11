@@ -21,10 +21,17 @@
 
 en:
   views:
+    application:
+      _header:
+        title: "Peter de Verteuil"
+      _sidebar:
+        title: "Menu"
     homepage:
       index:
-        intro: "My name is Peter de
-          Verteuil and I am a Web Developer."
+        self_summary: "A junior web developer with a passion for building solid full-stack applications.
+          Interested in building seamless user interface experiences coupled with efficient
+          back end programming interfaces. Working towards becoming a skilled Node.js developer.
+          Interests include chess, cycling, music and cinema."
     static_page:
       about:
         title: "About"
